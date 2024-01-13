@@ -102,3 +102,17 @@
   border-radius: 10px;
   margin-top: 50px;
 }
+
+
+
+/* Responsive */
+@media screen and (max-width:640px) {
+  #head{
+    padding-left: 15px ;
+    padding-right: 15px;
+  }
+
+  .flex{
+    flex-direction: column;
+  }
+}
